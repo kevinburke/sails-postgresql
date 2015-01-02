@@ -1,3 +1,3 @@
 test:
     override:
-        - DB_USER=ubuntu DB_DATABASE=circle_test ./node_modules/mocha/bin/mocha --grep "should have saved the proper values"
+        - DB_USER=ubuntu DB_DATABASE=circle_test make test-integration
