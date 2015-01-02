@@ -1,3 +1,4 @@
 test:
     override:
+        - git checkout 0.10.8
         - while true; do DB_USER=ubuntu DB_DATABASE=circle_test make test-integration ; if [[ "$?" -ne 0 ]]; then break; fi; done; exit 1
