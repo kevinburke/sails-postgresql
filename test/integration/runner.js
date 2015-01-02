@@ -59,7 +59,8 @@ new TestRunner({
 
   // Mocha opts
   mocha: {
-    bail: false
+    bail: false,
+    grep: "should have saved the proper values"
   },
 
   // Load the adapter module.
