@@ -60,7 +60,7 @@ new TestRunner({
   // Mocha opts
   mocha: {
     bail: false,
-    grep: "should have saved the proper values"
+    grep: "should return rows in the correct order when creating multiple rows"
   },
 
   // Load the adapter module.
