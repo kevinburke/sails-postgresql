@@ -1,9 +1,14 @@
 {
   "name": "sails-postgresql",
   "description": "a postgreSQL adapter for Waterline and Sails.js",
-  "version": "0.10.14",
+  "version": "0.10.15",
   "author": "Cody Stoltman <particlebanana@gmail.com>",
-  "url": "http://github.com/balderdashy/sails-postgresql",
+  "contributors": [{
+      "name": "Shyp Engineering",
+      "email": "engineering@shyp.com",
+      "url": "https://shyp.github.io"
+  }],
+  "url": "https://github.com/balderdashy/sails-postgresql",
   "keywords": [
     "postgresql",
     "orm",
@@ -12,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-postgresql.git"
+    "url": "git://github.com/Shyp/sails-postgresql.git"
   },
   "dependencies": {
     "pg": "~4.2.0",
