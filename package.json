@@ -15,7 +15,7 @@
     "url": "git://github.com/balderdashy/sails-postgresql.git"
   },
   "dependencies": {
-    "pg": "~4.4.0",
+    "pg": "git://github.com/kevinburke/node-postgres#v4.4.2-timing",
     "lodash": "~3.10.0",
     "async": "~1.3.0",
     "waterline-errors": "~0.10.0",
